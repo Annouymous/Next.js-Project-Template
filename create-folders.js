@@ -24,7 +24,7 @@ const createFolders = (selectedFolders) => {
 };
 
 // Prompt user to select folders
-inquirer
+inquirer.default
   .prompt([
     {
       type: "checkbox",
